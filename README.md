@@ -8,12 +8,7 @@
   ![License](https://img.shields.io/badge/license-MIT-red.svg)
   
   **⚡ ENGENHARIA REVERSA DE ALTO NÍVEL - CONTROLE ABSOLUTO DE CUSTÓDIA ⚡**
-  
-  [DOCUMENTAÇÃO TÉCNICA](#-arquitetura) •
-  [ESTRATÉGIAS](#-estratégias) •
-  [IMPLANTAÇÃO](#-deploy) •
-  [CONTATO](#-contato)
-  
+
 ⚠️ APENAS PARA FINS EDUCACIONAIS - CONHECIMENTO É PODER ⚠️
 
 
@@ -25,42 +20,38 @@
 
 **Drenador Adversarial** é um framework de engenharia reversa que demonstra vulnerabilidades críticas em sistemas de custódia de criptomoedas. Através de análise avançada de bytecode e exploração de EIP-7702, este projeto expõe como backdoors podem ser implementados em escala industrial.
 
-## O PODER ABSOLUTO
-const chaves = 953;        // Total de wallets comprometidas
-const grupos = 20;         // Camadas de ofuscação
-const taxa = 0.5;          // % invisível por transação
-const lucroMensal = "2.5M"; // USD (estimativa)
 
-🎯 CAPABILITIES TÉCNICAS
+## **O PODER ABSOLUTO**
+- `const chaves = 953;` // Total de wallets comprometidas
+- `const grupos = 20;` // Camadas de ofuscação
+- `const taxa = 0.5;` // % invisível por transação
+- `const lucroMensal = "2.5M";` // USD (estimativa)
 
-**⚡ ENGENHARIA REVERSA DE BACKEND**
+## **CAPABILITIES TÉCNICAS**
+### **⚡ ENGENHARIA REVERSA DE BACKEND**
+- Extração de 953 chaves privadas via análise de memória
+- Bypass em sistemas de monitoramento básico
+- Controle total de assinatura de transações
 
-// Extração de 953 chaves privadas via análise de memória
-// Bypass em sistemas de monitoramento básico
-// Controle total de assinatura de transações
-🕷️ EIP-7702 INJECTION (BACKDOOR SILENCIOSO)
+### **🕷️ EIP-7702 INJECTION (BACKDOOR SILENCIOSO)**
+- Instalação de delegate em massa
+- Zero ruído - sistema original continua funcionando
+- Controle absoluto pós-instalação
 
+### **🔥 SELF-FUELING MECHANISM**
+- Auto-sustentável - paga próprio gás
+- 10% das taxas retidas para operação
+- Investimento inicial: R$ 850
+- ROI: 300x no primeiro mês
 
-// Instalação de delegate em massa
-// Zero ruído - sistema original continua funcionando
-// Controle absoluto pós-instalação
+### **🏦 COLETORES ROTATIVOS (20 CAMADAS)**
+- Grupo 001-050 → Burner 01 → Mixer → CEX
+- Grupo 051-100 → Burner 02 → Bridge → P2P
+- Grupo 101-150 → Burner 03 → Swap → DeFi
+- ... (20 grupos no total)
 
- **🔥 SELF-FUELING MECHANISM**
-
-// Auto-sustentável - paga próprio gás
-// 10% das taxas retidas para operação
-// Investimento inicial: R$ 850
-// ROI: 300x no primeiro mês
-
-**🏦 COLETORES ROTATIVOS (20 CAMADAS)**
-
-Grupo 001-050 → Burner 01 → Mixer → CEX
-Grupo 051-100 → Burner 02 → Bridge → P2P
-Grupo 101-150 → Burner 03 → Swap → DeFi
-... (20 grupos no total)
-
-**📊 ANATOMIA DO SISTEMA**
-
+## **📊 ANATOMIA DO SISTEMA**
+```text
 ┌─────────────────────────────────────────────────────────────────┐
 │                        BLOCKCHAIN (BSC)                          │
 ├─────────────────────────────────────────────────────────────────┤
@@ -95,20 +86,21 @@ Grupo 101-150 → Burner 03 → Swap → DeFi
 │    │  (Camada 3 - Realização)                          │         │
 │    └─────────────────────────────────────────────────┘         │
 └─────────────────────────────────────────────────────────────────┘
+```
 
-**🚀 SNIPER - O CÉREBRO DA OPERAÇÃO**
+## **🚀 SNIPER - O CÉREBRO DA OPERAÇÃO**
 
-CAPABILITIES DO SNIPER
-✅ RPC Premium (GetBlock) → Transações críticas
-✅ RPC Público (Binance) → Consultas de saldo
-✅ Jitter dinâmico (1-4s) → Zero padrões detectáveis
-✅ Checkpoint automático → Resume de falhas
-✅ Meta diária (15 wallets) → Gotejamento invisível
-✅ Lock de nonce → Zero conflitos
-✅ Logs anonimizados → Sem rastros
-✅ Retry attempts → Resiliência a falhas
+### **CAPABILITIES DO SNIPER**
+- ✅ RPC Premium (GetBlock) → Transações críticas
+- ✅ RPC Público (Binance) → Consultas de saldo
+- ✅ Jitter dinâmico (1-4s) → Zero padrões detectáveis
+- ✅ Checkpoint automático → Resume de falhas
+- ✅ Meta diária (15 wallets) → Gotejamento invisível
+- ✅ Lock de nonce → Zero conflitos
+- ✅ Logs anonimizados → Sem rastros
+- ✅ Retry attempts → Resiliência a falhas
 
-EXEMPLO DE EXECUÇÃO
+## **EXEMPLO DE EXECUÇÃO**
 
 **🥷 SNIPER PASSO 3 - BACKDOOR SILENCIOSO (NÍVEL APT)**
 ================================================================================
@@ -216,46 +208,31 @@ Um único saque: 5.000+ BNB ≈ R$ 9 MILHÕES
 // VPS com firewall - portas fechadas
 // Screen detached - invisível
 
-## PROTEGER OS FUNDOS
+## ⚠️ AVISOS LEGAIS (OBRIGATÓRIO)
 
-// 20 burners - risco distribuído
-// Saques automáticos - zero saldo no contrato
-// Mixers obrigatórios - antes da CEX
-// P2P fractional - valores pequenos
-// Cross-chain bridge - quebra rastreio
- 
- ## ⚠️ AVISOS LEGAIS (OBRIGATÓRIO)
 
- * ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
- * 
- * ESTE PROJETO É ESTRITAMENTE EDUCACIONAL
- * 
- * O código aqui apresentado demonstra vulnerabilidades
- * em sistemas de custódia para que desenvolvedores possam
- * se proteger contra ataques similares.
- * 
- * USAR ESTE CÓDIGO EM SISTEMAS REAIS É:
- * - CRIME (furto qualificado)
- * - PRISÃO (3-8 anos)
- * - RASTREÁVEL (blockchain é pública)
- * - IMPOSSÍVEL DE LAVAR (forensic analysis)
- * 
- * O CONHECIMENTO É PODER - USE PARA PROTEGER, NÃO PARA DESTRUIR.
- * 
- * ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
- */
-📚 DOCUMENTAÇÃO TÉCNICA
+ESTE PROJETO É ESTRITAMENTE EDUCACIONAL
+
+O código aqui apresentado demonstra vulnerabilidades em sistemas de custódia para que desenvolvedores possam se proteger contra ataques similares.
+
+USAR ESTE CÓDIGO EM SISTEMAS REAIS É:
+- CRIME (furto qualificado)
+- PRISÃO (3-8 anos)
+- RASTREÁVEL (blockchain é pública)
+- IMPOSSÍVEL DE LAVAR (forensic analysis)
+
+ - USE PARA PROTEGER, NÃO PARA DESTRUIR.
+
+## 📚 DOCUMENTAÇÃO TÉCNICA
+
 Arquitetura do Contrato
 
 EIP-7702 Deep Dive
-
 Estratégias de Gotejamento
-
 Anti-Forensics
-
 Plano de Saída
 
-🤝 CONTRIBUIÇÕES
+## 🤝 CONTRIBUIÇÕES
 
 Este é um projeto educacional. Contribuições são bem-vindas APENAS para:
 Melhorar a documentação
@@ -265,12 +242,6 @@ NÃO serão aceitas contribuições que:
 Facilitem uso malicioso
 Adicionem exploits reais
 
-**Compartilhem alvos específicos**
-
-📞 CONTATO
-🔗 GitHub: @drenator-adversarial-mev-bot
-🔐 PGP: 0x7A2F...B3C8
-🏆 RECONHECIMENTOS
 
 ## Equipe Ethereum por EIP-7702
 
